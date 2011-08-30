@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC88467E140C647600C9C562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC88467D140C647600C9C562 /* UIKit.framework */; };
+		DC884680140C647600C9C562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC88467F140C647600C9C562 /* Foundation.framework */; };
+		DC884682140C647600C9C562 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC884681140C647600C9C562 /* CoreGraphics.framework */; };
+		DC884688140C647600C9C562 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC884686140C647600C9C562 /* InfoPlist.strings */; };
+		DC88468B140C647600C9C562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC88468A140C647600C9C562 /* main.m */; };
+		DC88468E140C647600C9C562 /* ImageCroppingExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC88468D140C647600C9C562 /* ImageCroppingExampleAppDelegate.m */; };
+		DC884691140C647600C9C562 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC88468F140C647600C9C562 /* MainWindow.xib */; };
+		DC884694140C647600C9C562 /* ImageCroppingExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC884693140C647600C9C562 /* ImageCroppingExampleViewController.m */; };
+		DC884697140C647600C9C562 /* ImageCroppingExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC884695140C647600C9C562 /* ImageCroppingExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC884679140C647600C9C562 /* ImageCroppingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCroppingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC88467D140C647600C9C562 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC88467F140C647600C9C562 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC884681140C647600C9C562 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC884685140C647600C9C562 /* ImageCroppingExample-Info.plist */ = {isa = PBXFileReference; path = "ImageCroppingExample-Info.plist"; sourceTree = "<group>"; };
+		DC884687140C647600C9C562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC884689140C647600C9C562 /* ImageCroppingExample-Prefix.pch */ = {isa = PBXFileReference; path = "ImageCroppingExample-Prefix.pch"; sourceTree = "<group>"; };
+		DC88468A140C647600C9C562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC88468C140C647600C9C562 /* ImageCroppingExampleAppDelegate.h */ = {isa = PBXFileReference; path = ImageCroppingExampleAppDelegate.h; sourceTree = "<group>"; };
+		DC88468D140C647600C9C562 /* ImageCroppingExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCroppingExampleAppDelegate.m; sourceTree = "<group>"; };
+		DC884690140C647600C9C562 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DC884692140C647600C9C562 /* ImageCroppingExampleViewController.h */ = {isa = PBXFileReference; path = ImageCroppingExampleViewController.h; sourceTree = "<group>"; };
+		DC884693140C647600C9C562 /* ImageCroppingExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCroppingExampleViewController.m; sourceTree = "<group>"; };
+		DC884696140C647600C9C562 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageCroppingExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC884676140C647600C9C562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC88467E140C647600C9C562 /* UIKit.framework in Frameworks */,
+				DC884680140C647600C9C562 /* Foundation.framework in Frameworks */,
+				DC884682140C647600C9C562 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC88466E140C647600C9C562 = {
+			isa = PBXGroup;
+			children = (
+				DC884683140C647600C9C562 /* ImageCroppingExample */,
+				DC88467C140C647600C9C562 /* Frameworks */,
+				DC88467A140C647600C9C562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC88467A140C647600C9C562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC884679140C647600C9C562 /* ImageCroppingExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC88467C140C647600C9C562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC88467D140C647600C9C562 /* UIKit.framework */,
+				DC88467F140C647600C9C562 /* Foundation.framework */,
+				DC884681140C647600C9C562 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC884683140C647600C9C562 /* ImageCroppingExample */ = {
+			isa = PBXGroup;
+			children = (
+				DC88468C140C647600C9C562 /* ImageCroppingExampleAppDelegate.h */,
+				DC88468D140C647600C9C562 /* ImageCroppingExampleAppDelegate.m */,
+				DC88468F140C647600C9C562 /* MainWindow.xib */,
+				DC884692140C647600C9C562 /* ImageCroppingExampleViewController.h */,
+				DC884693140C647600C9C562 /* ImageCroppingExampleViewController.m */,
+				DC884695140C647600C9C562 /* ImageCroppingExampleViewController.xib */,
+				DC884684140C647600C9C562 /* Supporting Files */,
+			);
+			path = ImageCroppingExample;
+			sourceTree = "<group>";
+		};
+		DC884684140C647600C9C562 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC884685140C647600C9C562 /* ImageCroppingExample-Info.plist */,
+				DC884686140C647600C9C562 /* InfoPlist.strings */,
+				DC884689140C647600C9C562 /* ImageCroppingExample-Prefix.pch */,
+				DC88468A140C647600C9C562 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC884678140C647600C9C562 /* ImageCroppingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC88469A140C647600C9C562 /* Build configuration list for PBXNativeTarget "ImageCroppingExample" */;
+			buildPhases = (
+				DC884675140C647600C9C562 /* Sources */,
+				DC884676140C647600C9C562 /* Frameworks */,
+				DC884677140C647600C9C562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCroppingExample;
+			productName = ImageCroppingExample;
+			productReference = DC884679140C647600C9C562 /* ImageCroppingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC884670140C647600C9C562 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DC884673140C647600C9C562 /* Build configuration list for PBXProject "ImageCroppingExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC88466E140C647600C9C562;
+			productRefGroup = DC88467A140C647600C9C562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC884678140C647600C9C562 /* ImageCroppingExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC884677140C647600C9C562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC884688140C647600C9C562 /* InfoPlist.strings in Resources */,
+				DC884691140C647600C9C562 /* MainWindow.xib in Resources */,
+				DC884697140C647600C9C562 /* ImageCroppingExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC884675140C647600C9C562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC88468B140C647600C9C562 /* main.m in Sources */,
+				DC88468E140C647600C9C562 /* ImageCroppingExampleAppDelegate.m in Sources */,
+				DC884694140C647600C9C562 /* ImageCroppingExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC884686140C647600C9C562 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC884687140C647600C9C562 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC88468F140C647600C9C562 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC884690140C647600C9C562 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DC884695140C647600C9C562 /* ImageCroppingExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC884696140C647600C9C562 /* en */,
+			);
+			name = ImageCroppingExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC884698140C647600C9C562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC884699140C647600C9C562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DC88469B140C647600C9C562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCroppingExample/ImageCroppingExample-Prefix.pch";
+				INFOPLIST_FILE = "ImageCroppingExample/ImageCroppingExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC88469C140C647600C9C562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCroppingExample/ImageCroppingExample-Prefix.pch";
+				INFOPLIST_FILE = "ImageCroppingExample/ImageCroppingExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC884673140C647600C9C562 /* Build configuration list for PBXProject "ImageCroppingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC884698140C647600C9C562 /* Debug */,
+				DC884699140C647600C9C562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC88469A140C647600C9C562 /* Build configuration list for PBXNativeTarget "ImageCroppingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC88469B140C647600C9C562 /* Debug */,
+				DC88469C140C647600C9C562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC884670140C647600C9C562 /* Project object */;
+}

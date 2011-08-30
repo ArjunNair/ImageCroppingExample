@@ -16,6 +16,10 @@
 		DC884691140C647600C9C562 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC88468F140C647600C9C562 /* MainWindow.xib */; };
 		DC884694140C647600C9C562 /* ImageCroppingExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC884693140C647600C9C562 /* ImageCroppingExampleViewController.m */; };
 		DC884697140C647600C9C562 /* ImageCroppingExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC884695140C647600C9C562 /* ImageCroppingExampleViewController.xib */; };
+		DC8846A8140C6BCB00C9C562 /* ImagePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8846A6140C6BCB00C9C562 /* ImagePreview.m */; };
+		DC8846A9140C6BCB00C9C562 /* ImagePreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8846A7140C6BCB00C9C562 /* ImagePreview.xib */; };
+		DC8846AF140C790800C9C562 /* FinalOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8846AD140C790800C9C562 /* FinalOutputView.m */; };
+		DC8846B0140C790800C9C562 /* FinalOutputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8846AE140C790800C9C562 /* FinalOutputView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,22 @@
 		DC88467D140C647600C9C562 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC88467F140C647600C9C562 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC884681140C647600C9C562 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DC884685140C647600C9C562 /* ImageCroppingExample-Info.plist */ = {isa = PBXFileReference; path = "ImageCroppingExample-Info.plist"; sourceTree = "<group>"; };
+		DC884685140C647600C9C562 /* ImageCroppingExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageCroppingExample-Info.plist"; sourceTree = "<group>"; };
 		DC884687140C647600C9C562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DC884689140C647600C9C562 /* ImageCroppingExample-Prefix.pch */ = {isa = PBXFileReference; path = "ImageCroppingExample-Prefix.pch"; sourceTree = "<group>"; };
+		DC884689140C647600C9C562 /* ImageCroppingExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageCroppingExample-Prefix.pch"; sourceTree = "<group>"; };
 		DC88468A140C647600C9C562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC88468C140C647600C9C562 /* ImageCroppingExampleAppDelegate.h */ = {isa = PBXFileReference; path = ImageCroppingExampleAppDelegate.h; sourceTree = "<group>"; };
+		DC88468C140C647600C9C562 /* ImageCroppingExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCroppingExampleAppDelegate.h; sourceTree = "<group>"; };
 		DC88468D140C647600C9C562 /* ImageCroppingExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCroppingExampleAppDelegate.m; sourceTree = "<group>"; };
 		DC884690140C647600C9C562 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		DC884692140C647600C9C562 /* ImageCroppingExampleViewController.h */ = {isa = PBXFileReference; path = ImageCroppingExampleViewController.h; sourceTree = "<group>"; };
+		DC884692140C647600C9C562 /* ImageCroppingExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCroppingExampleViewController.h; sourceTree = "<group>"; };
 		DC884693140C647600C9C562 /* ImageCroppingExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCroppingExampleViewController.m; sourceTree = "<group>"; };
 		DC884696140C647600C9C562 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageCroppingExampleViewController.xib; sourceTree = "<group>"; };
+		DC8846A5140C6BCB00C9C562 /* ImagePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreview.h; sourceTree = "<group>"; };
+		DC8846A6140C6BCB00C9C562 /* ImagePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreview.m; sourceTree = "<group>"; };
+		DC8846A7140C6BCB00C9C562 /* ImagePreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePreview.xib; sourceTree = "<group>"; };
+		DC8846AC140C790700C9C562 /* FinalOutputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalOutputView.h; sourceTree = "<group>"; };
+		DC8846AD140C790800C9C562 /* FinalOutputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalOutputView.m; sourceTree = "<group>"; };
+		DC8846AE140C790800C9C562 /* FinalOutputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinalOutputView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,12 @@
 				DC884693140C647600C9C562 /* ImageCroppingExampleViewController.m */,
 				DC884695140C647600C9C562 /* ImageCroppingExampleViewController.xib */,
 				DC884684140C647600C9C562 /* Supporting Files */,
+				DC8846A5140C6BCB00C9C562 /* ImagePreview.h */,
+				DC8846A6140C6BCB00C9C562 /* ImagePreview.m */,
+				DC8846A7140C6BCB00C9C562 /* ImagePreview.xib */,
+				DC8846AC140C790700C9C562 /* FinalOutputView.h */,
+				DC8846AD140C790800C9C562 /* FinalOutputView.m */,
+				DC8846AE140C790800C9C562 /* FinalOutputView.xib */,
 			);
 			path = ImageCroppingExample;
 			sourceTree = "<group>";
@@ -151,6 +167,8 @@
 				DC884688140C647600C9C562 /* InfoPlist.strings in Resources */,
 				DC884691140C647600C9C562 /* MainWindow.xib in Resources */,
 				DC884697140C647600C9C562 /* ImageCroppingExampleViewController.xib in Resources */,
+				DC8846A9140C6BCB00C9C562 /* ImagePreview.xib in Resources */,
+				DC8846B0140C790800C9C562 /* FinalOutputView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +182,8 @@
 				DC88468B140C647600C9C562 /* main.m in Sources */,
 				DC88468E140C647600C9C562 /* ImageCroppingExampleAppDelegate.m in Sources */,
 				DC884694140C647600C9C562 /* ImageCroppingExampleViewController.m in Sources */,
+				DC8846A8140C6BCB00C9C562 /* ImagePreview.m in Sources */,
+				DC8846AF140C790800C9C562 /* FinalOutputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,11 +253,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageCroppingExample/ImageCroppingExample-Prefix.pch";
 				INFOPLIST_FILE = "ImageCroppingExample/ImageCroppingExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -247,10 +269,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageCroppingExample/ImageCroppingExample-Prefix.pch";
 				INFOPLIST_FILE = "ImageCroppingExample/ImageCroppingExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

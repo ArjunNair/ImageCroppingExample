@@ -1,5 +1,5 @@
 //
-//  ImageCroppingExampleAppDelegate.h
+//  FinalOutputView.h
 //  ImageCroppingExample
 //
 //  Created by Arjun on 30/08/11.
@@ -25,14 +25,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class ImageCroppingExampleViewController;
 
-@interface ImageCroppingExampleAppDelegate : NSObject <UIApplicationDelegate> {
-    UINavigationController* navigationController;
+@interface FinalOutputView : UIViewController {
+    
+    IBOutlet UIImageView *imageView;
+    UIImage* image;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) UIImage* image;
 
-@property (nonatomic, retain) IBOutlet ImageCroppingExampleViewController *viewController;
-@property (nonatomic, retain)  UINavigationController* navigationController;
 @end

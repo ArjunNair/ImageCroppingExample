@@ -1,5 +1,5 @@
 //
-//  ImageCroppingExampleViewController.m
+//  FinalOutputView.m
 //  ImageCroppingExample
 //
 //  Created by Arjun on 30/08/11.
@@ -23,13 +23,25 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import "ImageCroppingExampleViewController.h"
-#import "ImagePreview.h"
+#import "FinalOutputView.h"
 
-@implementation ImageCroppingExampleViewController
+
+@implementation FinalOutputView
+@synthesize image;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)dealloc
 {
+
+    [imageView release];
     [super dealloc];
 }
 
@@ -43,72 +55,42 @@
 
 #pragma mark - View lifecycle
 
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
-    
     [super viewDidLoad];
-}
+    // Do any additional setup after loading the view from its nib.
+    
+    self.navigationItem.title = @"Finally...";
+    
+    //Show the done editing button on right side of the navigation bar
+    UIBarButtonItem* doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(doneEditing)];
+    
+    self.navigationItem.rightBarButtonItem = doneButton;
+    
+    [doneButton release];
 
+    imageView.image = image;
+   
+    [image release];
+}
 
 - (void)viewDidUnload
 {
+    [imageView release];
+    imageView = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
--(void) viewWillAppear:(BOOL)animated
-{
-    self.navigationItem.title = @"Image Cropping Example";
-}
-
--(void) viewDidDisappear:(BOOL)animated
-{
-    self.navigationItem.title = @"Back";
-}
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)loadImageTouched:(id)sender 
+-(void) doneEditing
 {
-    UIImagePickerController* imgPicker = [[UIImagePickerController alloc] init];
-    imgPicker.delegate = self;
-    
-    imgPicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-    
-    [self presentModalViewController:imgPicker animated:YES];
+    [self.navigationController popToRootViewControllerAnimated:NO];
 }
-
-/**** Image Picker Delegates ******/
-- (void)imagePickerController:(UIImagePickerController *)picker 
-        didFinishPickingImage:(UIImage *)image
-                  editingInfo:(NSDictionary *)editingInfo
-{
- 
-    [picker dismissModalViewControllerAnimated:NO];
-    [picker release];
-    
-    [self performSelector:@selector(imageSelected:) withObject:image afterDelay:0.1];
-}
-
-- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker 
-{
-    [picker dismissModalViewControllerAnimated:NO];
-    [picker release];
-}
-/********************************/
-
-- (void) imageSelected:(UIImage *)image
-{
-    ImagePreview* preview = [[ImagePreview alloc] initWithNibName:@"ImagePreview" bundle:[NSBundle mainBundle]];
-    preview.previewImage = image;
-    [self.navigationController pushViewController:preview animated:NO];
-    [preview release];
-}
-
 @end

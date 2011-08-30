@@ -1,0 +1,3 @@
+This sample code demonstrates how to crop an image to a rectangular region 
+specified by a UIScrollView frame, taking into account any zooming that may 
+have been performed by the user on the UIScrollView.

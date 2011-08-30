@@ -1,0 +1,293 @@
+TImageCroppingExample
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/Info.plist ImageCroppingExample/ImageCroppingExample-Info.plist
+cProcessPCH /var/folders/v-/v-PS3p6nGNePu-SY2uThMk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingExample-Prefix-fdsgldvbkjgtpybdpxsuzqdqmwiz/ImageCroppingExample-Prefix.pch.gch ImageCroppingExample/ImageCroppingExample-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleAppDelegate.o /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleViewController.o /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/main.o /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample normal i386
+cGenerateDSYMFile /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app.dSYM /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample
+cCopyStringsFile /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj/InfoPlist.strings ImageCroppingExample/en.lproj/InfoPlist.strings
+cCompileXIB /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/MainWindow.xib
+cCompileXIB /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/ImageCroppingExampleViewController.xib
+cTouch /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004DC36C240000000000000110
+t1304652836
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93DF6900000000002999B0
+t1301536617
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93DFEA000000000029DA70
+t1301536746
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D93ECBE0000000000000AA1
+t1301540030
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D93ED1B0000000000766870
+t1301540123
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExample-Prefix.pch
+c000000004E5C2CF6000000000000015A
+t1314663670
+s346
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleAppDelegate.h
+c000000004E5C2CF600000000000001DA
+t1314663670
+s474
+i<UIKit/UIKit.h>
+
+N/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleAppDelegate.m
+c000000004E5C2CF6000000000000099D
+t1314663670
+s2461
+i"ImageCroppingExampleAppDelegate.h"
+i"ImageCroppingExampleViewController.h"
+
+N/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleViewController.h
+c000000004E5C2CF60000000000000112
+t1314663670
+s274
+i<UIKit/UIKit.h>
+
+N/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleViewController.m
+c000000004E5C2CF6000000000000041A
+t1314663670
+s1050
+i"ImageCroppingExampleViewController.h"
+
+N/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/ImageCroppingExampleViewController.xib
+c000000004E5C2EC40000000000002F81
+t1314664132
+s12161
+
+N/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/InfoPlist.strings
+c000000004E5C2CF6000000000000002D
+t1314663670
+s45
+
+N/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/MainWindow.xib
+c000000004E5C2CF60000000000004EB5
+t1314663670
+s20149
+
+N/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/main.m
+c000000004E5C2CF6000000000000016A
+t1314663670
+s362
+i<UIKit/UIKit.h>
+
+N/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app.dSYM
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/Info.plist
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/PkgInfo
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj/ImageCroppingExampleViewController.nib
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExample.LinkFileList
+c000000004E5C2ECE0000000000000204
+t1314664142
+s516
+
+N/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleAppDelegate.o
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleViewController.o
+t2
+s0
+
+N/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/v-/v-PS3p6nGNePu-SY2uThMk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingExample-Prefix-fdsgldvbkjgtpybdpxsuzqdqmwiz/ImageCroppingExample-Prefix.pch.gch
+t2
+s0
+
+NImageCroppingExample/ImageCroppingExample-Info.plist
+c000000004E5C2CF6000000000000049C
+t1314663670
+s1180
+
+CBuild AST from /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleAppDelegate.m
+r0
+
+CBuild AST from /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleViewController.m
+r0
+
+CBuild AST from /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa6b96d46660cb441^6adc934e660cb441^---0#1#0#--18"Check dependencies
+
+CCompileC build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleAppDelegate.o /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336356966.001911
+e336356968.172062
+r1
+xCompileC
+xbuild/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleAppDelegate.o
+x/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleAppDelegate.m0e130166660cb441^950c2c68660cb441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleAppDelegate.m0000000000000000^2688"CompileC build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleAppDelegate.o ImageCroppingExample/ImageCroppingExampleAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/arjun/Documents/ImageCroppingExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-generated-files.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-own-target-headers.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-all-target-headers.hmap -iquote /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-project-headers.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/include -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/DerivedSources/i386 -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/DerivedSources -F/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator -include /var/folders/v-/v-PS3p6nGNePu-SY2uThMk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingExample-Prefix-fdsgldvbkjgtpybdpxsuzqdqmwiz/ImageCroppingExample-Prefix.pch -c /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleAppDelegate.m -o /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleAppDelegate.o
+
+CCompileC build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleViewController.o /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336356966.001915
+e336356967.890472
+r1
+xCompileC
+xbuild/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleViewController.o
+x/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleViewController.m861e0166660cb441^6ff6e367660cb441^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleViewController.m0000000000000000^2700"CompileC build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleViewController.o ImageCroppingExample/ImageCroppingExampleViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/arjun/Documents/ImageCroppingExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-generated-files.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-own-target-headers.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-all-target-headers.hmap -iquote /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-project-headers.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/include -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/DerivedSources/i386 -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/DerivedSources -F/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator -include /var/folders/v-/v-PS3p6nGNePu-SY2uThMk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingExample-Prefix-fdsgldvbkjgtpybdpxsuzqdqmwiz/ImageCroppingExample-Prefix.pch -c /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExampleViewController.m -o /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExampleViewController.o
+
+CCompileC build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/main.o /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336356967.891798
+e336356968.165861
+r1
+xCompileC
+xbuild/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/main.o
+x/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/main.me675e467660cb441^9a7d2a68660cb441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/main.m0000000000000000^2580"CompileC build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/main.o ImageCroppingExample/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/arjun/Documents/ImageCroppingExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-generated-files.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-own-target-headers.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-all-target-headers.hmap -iquote /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-project-headers.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/include -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/DerivedSources/i386 -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/DerivedSources -F/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator -include /var/folders/v-/v-PS3p6nGNePu-SY2uThMk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingExample-Prefix-fdsgldvbkjgtpybdpxsuzqdqmwiz/ImageCroppingExample-Prefix.pch -c /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/main.m -o /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/main.o
+
+CCompileXIB /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/ImageCroppingExampleViewController.xib
+s336356972.705820
+e336356985.025284
+r1
+xCompileXIB
+x/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/ImageCroppingExampleViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compiling /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/ImageCroppingExampleViewController.xib2dceb46c660cb441^207a0679660cb441^-84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)-0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/ImageCroppingExampleViewController.xib0000000000000000^909"CompileXIB ImageCroppingExample/en.lproj/ImageCroppingExampleViewController.xib    cd /Users/arjun/Documents/ImageCroppingExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj/ImageCroppingExampleViewController.nib /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/ImageCroppingExampleViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/MainWindow.xib
+s336356972.590825
+e336356984.963989
+r1
+xCompileXIB
+x/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/MainWindow.xib3f53976c660cb441^2cd8f678660cb441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/MainWindow.xib0000000000000000^837"CompileXIB ImageCroppingExample/en.lproj/MainWindow.xib    cd /Users/arjun/Documents/ImageCroppingExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj/MainWindow.nib /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCopyStringsFile /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj/InfoPlist.strings ImageCroppingExample/en.lproj/InfoPlist.strings
+s336356972.590278
+e336356972.704175
+r1
+xCopyStringsFile
+x/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj/InfoPlist.strings
+xImageCroppingExample/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy ImageCroppingExample/en.lproj/InfoPlist.strings1b0fa26c660cb441^3545b46c660cb441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/en.lproj/InfoPlist.strings0000000000000000^708"CopyStringsFile build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj/InfoPlist.strings ImageCroppingExample/en.lproj/InfoPlist.strings    cd /Users/arjun/Documents/ImageCroppingExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/en.lproj -- ImageCroppingExample/en.lproj/InfoPlist.strings
+
+CGenerateDSYMFile /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app.dSYM /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample
+s336356972.252688
+e336356972.587555
+r1
+xGenerateDSYMFile
+x/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app.dSYM
+x/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Generating /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app.dSYMdac9406c660cb441^8c69966c660cb441^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app.dSYM0000204d2205f041^721"GenerateDSYMFile build/Debug-iphonesimulator/ImageCroppingExample.app.dSYM build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample    cd /Users/arjun/Documents/ImageCroppingExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    /Developer/usr/bin/dsymutil /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample -o /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app.dSYM
+
+CLd /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample normal i386
+s336356968.173833
+e336356972.251050
+r1
+xLd
+x/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExampleb3b32c68660cb441^fe45406c660cb441^---0#0#0#--1219"Ld build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample normal i386    cd /Users/arjun/Documents/ImageCroppingExample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator -F/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator -filelist /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/Objects-normal/i386/ImageCroppingExample.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/ImageCroppingExample
+
+CProcessInfoPlistFile /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/Info.plist ImageCroppingExample/ImageCroppingExample-Info.plist
+s336356943.309759
+e336356943.643411
+r1
+xProcessInfoPlistFile
+x/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/Info.plist
+xImageCroppingExample/ImageCroppingExample-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Process ImageCroppingExample/ImageCroppingExample-Info.plist8193794f660cb441^6632fc4f660cb441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExample-Info.plist0000000000000000^827"ProcessInfoPlistFile build/Debug-iphonesimulator/ImageCroppingExample.app/Info.plist ImageCroppingExample/ImageCroppingExample-Info.plist    cd /Users/arjun/Documents/ImageCroppingExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    builtin-infoPlistUtility ImageCroppingExample/ImageCroppingExample-Info.plist -genpkginfo /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app/Info.plist
+
+CProcessPCH /Users/arjun/Library/Developer/Xcode/DerivedData/ImageCroppingExample-bfyccbdrwmgdhkdfdjfmflrlyxtb/Index/PrecompiledHeaders/ImageCroppingExample-Prefix-eczvqfohgpnmdsatlbvyzxydtbnt_ast/ImageCroppingExample-Prefix.pch.pth ImageCroppingExample/ImageCroppingExample-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/v-/v-PS3p6nGNePu-SY2uThMk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingExample-Prefix-fdsgldvbkjgtpybdpxsuzqdqmwiz/ImageCroppingExample-Prefix.pch.gch ImageCroppingExample/ImageCroppingExample-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s336356943.648032
+e336356965.999902
+r1
+xProcessPCH
+x/var/folders/v-/v-PS3p6nGNePu-SY2uThMk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingExample-Prefix-fdsgldvbkjgtpybdpxsuzqdqmwiz/ImageCroppingExample-Prefix.pch.gch
+xImageCroppingExample/ImageCroppingExample-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Precompile ImageCroppingExample/ImageCroppingExample-Prefix.pch6d1fa64f660cb441^18ebff65660cb441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExample-Prefix.pch0000000000000000^2563"ProcessPCH /var/folders/v-/v-PS3p6nGNePu-SY2uThMk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingExample-Prefix-fdsgldvbkjgtpybdpxsuzqdqmwiz/ImageCroppingExample-Prefix.pch.gch ImageCroppingExample/ImageCroppingExample-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/arjun/Documents/ImageCroppingExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-generated-files.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-own-target-headers.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-all-target-headers.hmap -iquote /Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/ImageCroppingExample-project-headers.hmap -I/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/include -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/DerivedSources/i386 -I/Users/arjun/Documents/ImageCroppingExample/build/ImageCroppingExample.build/Debug-iphonesimulator/ImageCroppingExample.build/DerivedSources -F/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator -c /Users/arjun/Documents/ImageCroppingExample/ImageCroppingExample/ImageCroppingExample-Prefix.pch -o /var/folders/v-/v-PS3p6nGNePu-SY2uThMk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingExample-Prefix-fdsgldvbkjgtpybdpxsuzqdqmwiz/ImageCroppingExample-Prefix.pch.gch
+
+CTouch /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app
+s336356985.028198
+e336356985.082165
+r1
+xTouch
+x/Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app404f0779660cb441^aa0a1579660cb441^---0#0#0#--495"Touch build/Debug-iphonesimulator/ImageCroppingExample.app    cd /Users/arjun/Documents/ImageCroppingExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/tools:/Users/arjun/Library/android-sdk-r11/android-sdk-mac_x86/platform-tools"    /usr/bin/touch -c /Users/arjun/Documents/ImageCroppingExample/build/Debug-iphonesimulator/ImageCroppingExample.app
+

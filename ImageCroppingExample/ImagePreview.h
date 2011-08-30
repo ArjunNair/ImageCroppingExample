@@ -1,5 +1,5 @@
 //
-//  ImageCroppingExampleAppDelegate.h
+//  ImagePreview.h
 //  ImageCroppingExample
 //
 //  Created by Arjun on 30/08/11.
@@ -25,14 +25,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class ImageCroppingExampleViewController;
 
-@interface ImageCroppingExampleAppDelegate : NSObject <UIApplicationDelegate> {
-    UINavigationController* navigationController;
+@interface ImagePreview : UIViewController <UIScrollViewDelegate>{
+    
+    IBOutlet UIScrollView *scrollView;
+    UIImage* previewImage;
+    UIImageView* imageView;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-
-@property (nonatomic, retain) IBOutlet ImageCroppingExampleViewController *viewController;
-@property (nonatomic, retain)  UINavigationController* navigationController;
+@property (nonatomic, retain) UIImage* previewImage;
 @end
